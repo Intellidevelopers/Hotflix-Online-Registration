@@ -19,7 +19,7 @@ img{
     justify-content: center;
     width: 95%;
     margin-left: 2%;
-    height: 135vh;
+    height: 140vh;
     border-radius: 7px;
     color: white;
 }
@@ -42,4 +42,14 @@ a{
 }
 a:hover{
     opacity: 0.7;
+}
+button{
+    width: 100px;
+    padding: 7px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    font-weight: 700;
+    margin-left: 40%;
 }

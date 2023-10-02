@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.942);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.944);
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    height: 630px;
+    border-radius: 7px;
+}
+form{
+    display: grid;
+    text-align: center;
+}
+header{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 4px;
+}
+
+button{
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    outline: none;
+}
+p{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+button:hover{
+    opacity: 0.7;
+}
+address{
+    width: 100%;
+    margin-left: -4%;
+}
+select{
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 4px;
+}
+footer, a{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+input[type='file']{
+    width: 80%;
+    background-color: white;
+}
+label{
+    margin-left: -51%;
+    color: white;
+}
+h6{
+    margin-left: -49%;
+    color: white;
+}
+.health{
+    margin-left: -60%;
+    margin-top: %;
+}

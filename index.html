@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotflix - Online Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="CloudTech__1_-removebg-preview.png" alt="">
+        <p>Kindly fill the following details to get started with your <br> registration</p>
+    </div>
+    <br>
+    <div class="container">
+        <br>
+        <br>
+        <form action="https://formspree.io/f/xbjelena" method="POST">
+            <input type="text" name="Name" placeholder="Enter your full name" required>
+            <input type="text" name="Email" placeholder="Enter your email" required>
+            <input type="number" name="Phone number" placeholder="Enter your phone number" required>
+            <address>
+            <input type="text" name="Address" placeholder="Enter your address" required>
+            </address>
+            <input type="text" name="Age" placeholder="Enter your age" required>
+            <select name="Gender" id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+            <label for="file">Upload your image</label>
+            <h6>must clearly show your face</h6>
+            <input type="file">
+            <label class="health" for="healt">Health Status</label>
+            <input type="range" value="Health">
+            <button>Register</button>
+        </form>
+    </div>
+
+</body>
+</html>

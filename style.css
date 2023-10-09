@@ -8,7 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    background-color: rgba(0, 0, 0, 0.944);
+    background-color: rgba(6, 6, 6, 0.944);
     align-content: center;
     justify-content: center;
     width: 95%;
@@ -70,7 +70,7 @@ footer, a{
     text-decoration: none;
 }
 input[type='file']{
-    width: 90%;
+    width: 89%;
     background-color: white;
 }
 label{
